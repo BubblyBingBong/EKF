@@ -65,3 +65,4 @@ class PurePursuit():
         return u
     def endedPath(self, state):
         return distance(state, self.path[-1]) < 3
+

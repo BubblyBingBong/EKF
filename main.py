@@ -131,7 +131,6 @@ plt.plot([0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5], cam_errors)
 plt.legend(['model + odo', 'camera + odo + model'])
 
 
-
 # plt.figure(13)
 # plt.title("accuracy test path")
 # plt.xlabel("x position")
@@ -282,5 +281,4 @@ plt.legend(['Target Path', 'Actual Position', 'Field', 'Images'])
 # plt.legend(['Optimization Positions'])
 
 plt.show()
-
 

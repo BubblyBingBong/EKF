@@ -142,3 +142,4 @@ class RobotActual:
             return initial_state
         else:
             return self.measured_states[-1]
+

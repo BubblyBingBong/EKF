@@ -92,3 +92,4 @@ class Segment():
             else:
                 segmentProjection = self.endPoint
         return segmentProjection
+
