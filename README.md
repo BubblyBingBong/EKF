@@ -4,7 +4,7 @@
 </div>
 
 <h3 align="center">
-  <a href="https://arxiv.org">arXiv</a> |
+  <a href="http://arxiv.org/abs/2310.04459">arXiv</a> |
   <a href="https://www.youtube.com/watch?v=u2EER8b3shA">Video</a> |
   <a href="docs/ekf.pdf">Slides</a>
 </h3>
@@ -30,12 +30,11 @@
 - EKF greatly increases localization accuracy while not requiring much computation power
 
 ## News <a name="news"></a>
-- **`Aug-Dec 2023`** Upgrade EKF code to support [FRC Robot](https://www.firstinspires.org/robotics/frc) in progress.
-- **`Jan-Oct 2023`** Prepare EKF paper for [arXiv](https://arxiv.org) and [JSR](https://www.jsr.org/hs) with minor update.
+- **`Aug-Oct 2023`** Start upgrading EKF for [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) autonomous driving.
+- **`Jan-Oct 2023`** Prepare EKF paper for [arXiv](https://arxiv.org/abs/2310.04459) and [JSR](https://www.jsr.org/hs) with minor update in progress.
 - **`Jan-Mar 2023`** Present EKF at [Polygence Symposium](https://www.youtube.com/watch?v=u2EER8b3shA) and [Synopsys Science and Technology Championship](https://science-fair.org).
-- **`Oct-Dec 2022`** EKF code implementation for research program to support [FTC Robot](https://www.firstinspires.org/robotics/ftc).
-- **`Aug-Dec 2022`** EKF research for [FTC Robot](https://www.firstinspires.org/robotics/ftc) and [arXiv](https://arxiv.org) submission.
-- **`Jun-Dec 2022`** Polygence research program.
+- **`Oct-Dec 2022`** EKF code implementation and system simulation with bugs' fix.
+- **`Jun-Dec 2022`** Polygence research to support [FIRST Tech Challenge](https://www.firstinspires.org/robotics/ftc) advanced development and arXiv submission.
 
 ## TODO <a name="todos"></a>
 - [ ] Implement an EKF on a physical robot with a more realistic model that includes acceleration and other factors such as friction and motor voltages.
@@ -49,6 +48,14 @@ All assets and code are under the [Apache 2.0 license](./LICENSE) unless specifi
 ## Citation <a name="citation"></a>
 Please consider citing our paper if the project helps your research with the following BibTex:
 ```bibtex
+@misc{kou2023extended,
+      title={Extended Kalman Filter State Estimation for Autonomous Competition Robots}, 
+      author={Ethan Kou and Acshi Haggenmiller},
+      year={2023},
+      eprint={2310.04459},
+      archivePrefix={arXiv},
+      primaryClass={eess.SY}
+}
 ```
 
 ## Resource
@@ -57,3 +64,7 @@ Please consider citing our paper if the project helps your research with the fol
 - Kalman, R. E. (1960). A new approach to linear filtering and prediction problems.
 - Franklin, W. Kalman Filter Explained Simply. The Kalman Filter.
 - FIRST® (2021). 2021-2022 FIRST® Tech Challenge Game Manual Part 2 – Traditional Events.
+- Thrun, S. (2002). Probabilistic robotics. Communications of the ACM, 45(3),52-57.
+- Taheri, H., Qiao, B., & Ghaeminezhad, N.(2015). Kinematic model of a four mecanum wheeled mobile robot. International journal of computer applications, 113(3), 6-9.
+- Olson, E. (2004). A primer on odometry and motor control. Electronic Group Discuss, 12.
+- Coulter, R. C. (1992). Implementation of the pure pursuit path tracking algorithm. Carnegie-Mellon UNIV Pittsburgh PA Robotics INST.
