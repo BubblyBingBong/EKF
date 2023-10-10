@@ -4,9 +4,10 @@
 </div>
 
 <h3 align="center">
-  <a href="http://arxiv.org/abs/2310.04459">arXiv</a> |
+  <a href="https://www.jsr.org/hs/index.php/path/article/view/5578">JSR</a> |
   <a href="https://www.youtube.com/watch?v=u2EER8b3shA">Video</a> |
-  <a href="docs/ekf.pdf">Slides</a>
+  <a href="docs/ekf.pdf">Slides</a> ｜
+  <a href="http://arxiv.org/abs/2310.04459">arXiv</a>
 </h3>
 
 ![teaser](sources/ekf.png)
@@ -31,10 +32,10 @@
 
 ## News <a name="news"></a>
 - **`Aug-Oct 2023`** Start upgrading EKF for [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) autonomous driving.
-- **`Jan-Oct 2023`** Prepare EKF paper for [arXiv](https://arxiv.org/abs/2310.04459) and [JSR](https://www.jsr.org/hs) with minor update in progress.
+- **`Jan-Oct 2023`** EKF paper [Journal of Student Research](https://www.jsr.org/hs/index.php/path/article/view/5578) publication with minor update.
 - **`Jan-Mar 2023`** Present EKF at [Polygence Symposium](https://www.youtube.com/watch?v=u2EER8b3shA) and [Synopsys Science and Technology Championship](https://science-fair.org).
 - **`Oct-Dec 2022`** EKF code implementation and system simulation with bugs' fix.
-- **`Jun-Dec 2022`** Polygence research to support [FIRST Tech Challenge](https://www.firstinspires.org/robotics/ftc) advanced development and arXiv submission.
+- **`Jun-Dec 2022`** Polygence research for [FIRST Tech Challenge](https://www.firstinspires.org/robotics/ftc) development and arXiv preparation.
 
 ## TODO <a name="todos"></a>
 - [ ] Implement an EKF on a physical robot with a more realistic model that includes acceleration and other factors such as friction and motor voltages.
@@ -46,7 +47,14 @@
 All assets and code are under the [Apache 2.0 license](./LICENSE) unless specified otherwise.
 
 ## Citation <a name="citation"></a>
-Please consider citing our paper if the project helps your research with the following BibTex:
+Please consider citing our paper if the project helps your research with the following information:
+```
+Kou, E., & Haggenmiller, A. (2023). Extended Kalman Filter State Estimation for Autonomous Competition Robots. Journal of Student Research, 12(1). https://doi.org/10.47611/jsrhs.v12i1.5578
+```
+As well as BibTex as reference:
+```bibtex
+@article{Kou_Haggenmiller_2023, place={Houston, USA}, title={Extended Kalman Filter State Estimation for Autonomous Competition Robots}, volume={12}, url={https://www.jsr.org/hs/index.php/path/article/view/5578}, DOI={10.47611/jsrhs.v12i1.5578}, abstractNote={&lt;p&gt;Autonomous mobile robot competitions judge based on a robot’s ability to quickly and accurately navigate the game field. This means accurate localization is crucial for creating an autonomous competition robot. Two common localization methods are odometry and computer vision landmark detection. Odometry provides frequent velocity measurements, while landmark detection provides infrequent position measurements. The state can also be predicted with a physics model. These three types of localization can be “fused” to create a more accurate state estimate using an Extended Kalman Filter (EKF). The EKF is a nonlinear full-state estimator that approximates the state estimate with the lowest covariance error when given the sensor measurements, the model prediction, and their variances. In this paper, we demonstrate the effectiveness of the EKF by implementing it on a 4-wheel mecanum-drive robot simulation. The position and velocity accuracy of fusing together various combinations of these three data sources are compared. We also discuss the assumptions and limitations of an EKF.&lt;/p&gt;}, number={1}, journal={Journal of Student Research}, author={Kou, Ethan and Haggenmiller, Acshi}, year={2023}, month={Feb.} }
+```
 ```bibtex
 @misc{kou2023extended,
       title={Extended Kalman Filter State Estimation for Autonomous Competition Robots}, 
