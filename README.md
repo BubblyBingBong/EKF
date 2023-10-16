@@ -54,31 +54,11 @@ Extended Kalman Filter State Estimation for Autonomous Competition Robots.
 Journal of Student Research, 12(1).
 https://doi.org/10.47611/jsrhs.v12i1.5578
 ```
-As well as BibTex as reference:
-```bibtex
-@article{Kou_Haggenmiller_2023, 
-      place={Houston, USA},
-      title={Extended Kalman Filter State Estimation for Autonomous Competition Robots},
-      volume={12},
-      url={https://www.jsr.org/hs/index.php/path/article/view/5578},
-      DOI={10.47611/jsrhs.v12i1.5578},
-      abstractNote={&lt;p&gt;Autonomous mobile robot competitions judge based on a robot’s ability to quickly and accurately navigate the game field. This means accurate localization is crucial for creating an autonomous competition robot. Two common localization methods are odometry and computer vision landmark detection. Odometry provides frequent velocity measurements, while landmark detection provides infrequent position measurements. The state can also be predicted with a physics model. These three types of localization can be “fused” to create a more accurate state estimate using an Extended Kalman Filter (EKF). The EKF is a nonlinear full-state estimator that approximates the state estimate with the lowest covariance error when given the sensor measurements, the model prediction, and their variances. In this paper, we demonstrate the effectiveness of the EKF by implementing it on a 4-wheel mecanum-drive robot simulation. The position and velocity accuracy of fusing together various combinations of these three data sources are compared. We also discuss the assumptions and limitations of an EKF.&lt;/p&gt;}, 
-      number={1},
-      journal={Journal of Student Research},
-      author={Kou, Ethan and Haggenmiller, Acshi},
-      year={2023},
-      month={Feb.}
-}
+As well as citation in IEEE/ACS/ABNT formats as reference:
 ```
-```bibtex
-@misc{kou2023extended,
-      title={Extended Kalman Filter State Estimation for Autonomous Competition Robots},
-      author={Ethan Kou and Acshi Haggenmiller},
-      year={2023},
-      eprint={2310.04459},
-      archivePrefix={arXiv},
-      primaryClass={eess.SY}
-}
+E. Kou and A. Haggenmiller, “Extended Kalman Filter State Estimation for Autonomous Competition Robots”, J Stud Res, vol. 12, no. 1, Feb. 2023.
+Kou, E.; Haggenmiller, A. Extended Kalman Filter State Estimation for Autonomous Competition Robots. J Stud Res 2023, 12.
+KOU, E.; HAGGENMILLER, A. Extended Kalman Filter State Estimation for Autonomous Competition Robots. Journal of Student Research, v. 12, n. 1, 28 Feb. 2023.
 ```
 
 ## Resource
