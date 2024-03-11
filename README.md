@@ -31,10 +31,11 @@
 - EKF greatly increases localization accuracy while not requiring much computation power
 
 ## News <a name="news"></a>
-- **`Aug-Oct 2023`** Start upgrading EKF for [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) autonomous driving.
+- **`Jan-Apr 2024`** EKF v2.0 for [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) and [FIRST Tech Challenge](https://www.firstinspires.org/robotics/ftc) deployment.
+- **`Sep-Dec 2023`** Start upgrading EKF for [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) autonomous driving.
 - **`Jan-Oct 2023`** EKF paper [Journal of Student Research](https://www.jsr.org/hs/index.php/path/article/view/5578) publication with minor update.
 - **`Jan-Mar 2023`** Present EKF at [Polygence Symposium](https://www.youtube.com/watch?v=u2EER8b3shA) and [Synopsys Science and Technology Championship](https://science-fair.org).
-- **`Oct-Dec 2022`** EKF code implementation and system simulation with bugs' fix.
+- **`Oct-Dec 2022`** EKF v1.0 code implementation and system simulation with bugs' fix.
 - **`Jun-Dec 2022`** Polygence research for [FIRST Tech Challenge](https://www.firstinspires.org/robotics/ftc) development and arXiv preparation.
 
 ## TODO <a name="todos"></a>
@@ -63,7 +64,7 @@ KOU, E.; HAGGENMILLER, A. Extended Kalman Filter State Estimation for Autonomous
 
 ## Resource
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-- [PID](https://github.com/BubblyBingBong/PID) (:rocket:Ours!)
+- [PID](https://github.com/BubblyBingBong/PID) ( :rocket:Ours!)
 - Kalman, R. E. (1960). A new approach to linear filtering and prediction problems.
 - Franklin, W. Kalman Filter Explained Simply. The Kalman Filter.
 - FIRST® (2021). 2021-2022 FIRST® Tech Challenge Game Manual Part 2 – Traditional Events.
