@@ -31,15 +31,15 @@
 - EKF greatly increases localization accuracy while not requiring much computation power
 
 ## News <a name="news"></a>
-- **`Jan-Apr 2024`** EKF v2.0 for [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) and [FIRST Tech Challenge](https://www.firstinspires.org/robotics/ftc) deployment.
+- **`Jan-Apr 2024`** EKF `v2.0` for FRC and FTC deployment with code updates & bug fixes.
 - **`Sep-Dec 2023`** Start upgrading EKF for [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) autonomous driving.
-- **`Jan-Oct 2023`** EKF paper [Journal of Student Research](https://www.jsr.org/hs/index.php/path/article/view/5578) publication with minor update.
+- **`Jan-Oct 2023`** EKF publication on [arXiv](http://arxiv.org/abs/2310.04459) and [Journal of Student Research](https://www.jsr.org/hs/index.php/path/article/view/5578) with minor update.
 - **`Jan-Mar 2023`** Present EKF at [Polygence Symposium](https://www.youtube.com/watch?v=u2EER8b3shA) and [Synopsys Science and Technology Championship](https://science-fair.org).
-- **`Oct-Dec 2022`** EKF v1.0 code implementation and system simulation with bugs' fix.
+- **`Oct-Dec 2022`** EKF `v1.0` code implementation and system simulation with bug fixes.
 - **`Jun-Dec 2022`** Polygence research for [FIRST Tech Challenge](https://www.firstinspires.org/robotics/ftc) development and arXiv preparation.
 
 ## TODO <a name="todos"></a>
-- [ ] Implement an EKF on a physical robot with a more realistic model that includes acceleration and other factors such as friction and motor voltages.
+- [x] Implement an EKF on a physical robot with a more realistic model that includes acceleration and other factors such as friction and motor voltages.
 - [ ] A more accurate physics model can be obtained by training a machine learning model with human driving.
 - [ ] Another state estimation algorithm to look into is the particle filter, as it can perform state estimation on systems with non- Gaussian noise.
 - [x] Bugs fix
